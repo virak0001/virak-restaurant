@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.header-image{
+    background-image: url('https://cdn.pixabay.com/photo/2015/11/26/22/28/girl-1064664_960_720.jpg');
+    height: 50vh;
+    background-size: cover;
+    background-position: center 25%;
+}
+.cover {
+    height: 50vh;
+    background: rgba(2,0, 0, 0.5);
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 100px;
+    margin: 0;
+}
+ul li {
+    padding: 20px;
+    text-transform: uppercase;
+    margin-top: 25px;
+}
+ul li a {
+    text-decoration: none;
+    font-weight: 400;
+    color: #fff;
+}
+ul li a:hover{
+    text-decoration: underline;
+}
+ul li a:focus{
+    text-decoration: underline;
+}
+.box {
+    margin-left: 100px;
+}
+.box h3 {
+    color: white;
+    font-family: cursive;
+    font-size: 30px;
+}
+.box .btn {
+    width: 200px;
+    padding: 15px;
+    font-size: 15px;
+    cursor: pointer;
+    color: #fff;
+    border:none;
+    border-radius: 40px;
+    background:rgba(0, 191, 250, 1)
+}
+.box .btn:hover{
+    background:rgb(7, 158, 204)
+}
